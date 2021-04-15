@@ -15,7 +15,7 @@
     --black: #282623;
     --grey: #BABABA;
     --off-white: #FAF8F7;
-    --white: #FFFFFF;
+    --just-white: #FFFFFF;
 }
 * {
     box-sizing: border-box;
@@ -35,7 +35,7 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
-    background-color: #1A9AF7;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
 }
 header img {
     width: 150px;
@@ -51,4 +51,17 @@ header img {
     margin-top: 40px;
     text-align: center;
     align-self: center;
+}
+.header--title-container h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.header--title-container p {
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    list-style: 1.8rem;
+    color: var(--soft-orange);
 }
